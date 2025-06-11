@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(56, 54, 54);
+}
+.logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid orange;
+}
+.logo img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#first{
+    color: orange;
+}
+
+.nav_links{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: 300ms;
+}
+.nav_links:hover{
+    color: orange;
+}
+
+
+body{
+ background-color: #cbc7bb;
+ color: #ffff;
+ font-family: 'Poppins',  'Times New Roman', serif;
+ height: 50%;
+ background-image: url(images/nic.jpeg);
+ background-size: cover;
+  background-color: rgba(0,0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+.section-1{
+ padding: 100px;
+ height: 50%;
+ background-image: url(images/download.jpeg);
+ background-size: cover;
+  background-color: rgba(0,0, 0, 0.6);
+  background-blend-mode: overlay;
+  text-align: center;
+  align-content: center;
+}
+.section-1__title{
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+
+.section-1__desc{
+    color: orange;
+}
+.section-1__desc-highlight{
+    color: blanchedalmond;
+}
+.section-2{
+ padding: 100px;
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+}
+.section-2__container{
+    flex: 1;
+}
+.section-2__image-container{
+    flex: 1;
+}
+.section-2__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.section-2__item{
+padding: 30px 0;
+}
+.section-2__title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: orange;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.section-2__title-selected{
+    text-decoration: underline;
+}
+.section-2__desc{
+  color: #fff;
+}
+
+.section-3{
+    padding: 100px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}.section-3__title{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-3__desc{
+    padding: 15px 0;
+    color: #dbdbdb;
+}
+button{
+   border: none;
+   color: none;
+}
+.section-3__button{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.section-3__button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.section-4{
+    padding: 100px;
+    text-align: center;
+    font-weight: 500;
+}
+.section-4__title{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.section-4__desc{
+    margin-top: 10px;
+    font-weight: 300;
+    color: #fff;
+}
+.section-4_controls{
+    margin-top: 20px;
+}
+.section-4__button{
+    border: 1px solid #fff; 
+    background: none;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: orange;
+    transition: 300ms;
+}
+.section-4__button i{
+    margin-right: 5px;
+}
+.section-4__button:hover{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.section-4__button-primary{
+    margin-right: 10px;
+}
+.section-4__video-container{
+    background-image: url(images/lecture\ hall2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    background-color: rgba(0,0, 0, 0.4);
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 300px;
+    box-shadow: 1px 4px 20px 4px rgba(0,0, 0, 0.2);
+    border-radius: 10px;
+}
+.section-5{
+    padding: 100px;
+    background-color: rgba(250, 235, 215, 0.2);
+    padding-bottom: 100px;
+}
+.section-5__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.section-5__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+    padding: 0;
+    border-radius: 8px;
+    transition: 300ms;
+}
+.section-5__card:hover{
+    box-shadow: 0 4px 20px 0 orange;
+}
+.card__image{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    
+}
+.card__title{
+   
+    font-size: 16px;
+    font-weight: 600;
+}
+.card__desc{
+    font-size: 12px;
+}
+.card__button{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transition: 300ms;
+    margin-top: 1rem;
+}
+.card__button:hover{
+    background-color: white;
+    color: orange;
+
+
+}
+.section-6{
+    padding: 100px;
+    background-color: rgba(250, 235, 215, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-6__left{
+   flex-basis: 50%;
+}
+.section-6__image-section{
+    width: 100%;
+    height: 700px;
+}
+.section-6__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.section-6__right{
+    flex-basis: 50%;
+}
+.right__desc{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.right__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right__list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.right__list-item{
+    padding: 8px;
+    border-bottom: 1px solid orange;
+    color: #fff;
+}
+.right__list-item:before{
+content: "->";
+margin-right: 10px;
+color: orange;
+}
+.right__form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.right__form-group label{
+    color: #fff;
+    font-weight: 500;
+}
+
+.right__form-group input, .right__form-group select{
+    padding: 12px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    font-family: inherit;
+}
+.right__form-group input:focus, .right__form-group select:focus{
+    outline: none;
+    border-color: orange;
+    box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.2);
+}
+.right__form-group select{
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.right__form-group option{
+    padding: 8px;
+}
+.right__submit-button{
+    background-color: orange;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 300ms ;
+}
+.right__submit-button:hover{
+    background-color: rgb(230, 159, 28);
+}
+.bottom-nav{
+    padding: 10px 100px;
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+.quick-links, .resources{
+    display: block;
+    text-decoration: none;
+ 
+}
+.quick-links a, .resources a{
+       color: orange;
+}
+.sumary button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    transition: 300ms;
+}
+.sumary button:hover{
+    background: transparent;
+    border: 1px solid orange;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.copyright i{
+    margin-right: 5px;
+}
+@media screen and (max-width: 640px){
+    .nav_links{display: none;}
+    .section-1{
+        padding: 1rem;
+    }
+    .section-2{
+        display: block;
+        padding: 1rem;
+    }
+    .section-3{
+        padding: 1rem;
+
+    }
+    .section-3__title{
+        font-size: 18px;
+    }
+    .section-3__desc{
+        font-size: 12px;
+
+    }
+    .section-4{
+        padding: 1rem;
+    }
+    .section-5{
+        padding: 1rem;
+    }
+    .section-6{
+        padding: 1rem;
+        display: block;
+    
+    }
+    .section-6__left{
+        margin-bottom: 3rem;
+    }
+    .bottom-nav{
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+}
